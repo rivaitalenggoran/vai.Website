@@ -1,0 +1,78 @@
+body{
+   background-color: #323232;
+}
+
+#box0{
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(135, 134, 134, 0.5);
+}
+
+
+
+#box1{
+    background-color: #212121;
+    width: 300px;
+    height: 800px;
+    border-radius: 8px 0px 0px 8px;
+    float: left;
+
+}
+
+#box2{
+    background-color: #212121;
+    width: 500px;
+    height: 800px;
+    border-radius: 0px 8px 8px 0px;
+    float: right;
+}
+
+#about, #skills,#achivement, #experinces{
+    color: #14FFEC;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #323232;
+    border-radius: 8px;
+}
+
+
+#images{
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 55px;
+    
+}
+
+#CP{
+   color: #14FFEC;
+   margin-top: 35px;
+   margin-left: 20px;
+   font-size: 16px;
+
+}
+
+
+#education ,#certification{
+    color: #14FFEC;
+    
+    margin-left: 20px;
+    font-size: 16px;    
+}
+
+#name{
+    color: #14FFEC;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size:20px;
+    text-align: center; 
+
+}
+
+a{
+    text-decoration: none;
+}
+

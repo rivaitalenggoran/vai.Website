@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='portofolio/style.css') }}">
+    <style>
+        .typewriter {
+            font-size: 2em;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid #000;
+            width: 0; /* Mulai dengan lebar 0 */
+            text-align: center; /* Pusatkan teks dalam elemen */
+            animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        @keyframes typing {
+            from {width: 0;}
+            to {width: 100%; /* Tampilkan teks sepenuhnya */}
+        }
+
+        @keyframes blink-caret {
+            0%, 100% {border-right: 2px solid transparent; /* Hapus border kursor */}
+            50% {border-right: 2px solid transparent; /* Ganti dengan ikon kustom */}
+        }
+    </style>
+    <body>
+    <div id="header">
+        <header style="background-color: #212121; padding: 20px; text-align: right;">
+        <nav>
+            <a href="/" style="color: #14FFEC; font-size: 20px; font-weight: bold; text-decoration: none; padding: 5px;" >Home</a>
+            <a href="/about" style="color: #14FFEC; font-size: 20px; font-weight: bold; text-decoration: none; padding: 5px;">About</a>
+            <a href="/portofolio" style="color: #14FFEC; font-size: 20px; font-weight: bold; text-decoration: none; padding: 5px;">Portofolio</a>
+            <a href="/contact" style="color: #14FFEC; font-size: 20px; font-weight: bold; text-decoration: none; padding: 5px;">Contact</a>
+        </nav>
+    </header>
+        <h1 class="typewriter" style="text-align: center; color: #14FFEC; padding-top: 40px">Portofolio</h1>
+
+    </div>
+        <div id="box0">
+            <div id="box1">
+                <figure>
+                    <img id = "images" src="../../static/portofolio/img.jpeg" alt="">
+                </figure>
+            <div id = "name">
+                <p><b>Rivai Hayashi Hendrik Talenggoran</b></p>
+            </div>
+            <div id="CP">
+                <p><b>Contact Person</b><br>
+                Email    : <a href="mailto:rivaitalenggoran9@gmail.com">rivaitalenggoran9@gmail.com</a><br>
+                Linkedin : <a href="https://www.linkedin.com/in/rivai-talenggoran-77a014290/">Rivai Talenggoran</a>
+                </p>
+            </div>
+            <div id="education">
+                <p><b>Education</b><br>
+                Duta Wacana Christian University (Bachelor Of Informatics)<br>
+                <br>
+                <a href="https://drive.google.com/file/d/16Ap51CjuyHV4hFmrb7joWvpRW6AxoUs2/view?usp=sharing">Bangkit Academy 2023 By Google, GoTo, Traveloka - Machine Learning Learning Path Cohort</a><br>
+                </p>
+            </div> 
+            <div id="certification">
+                <p><b>Certification</b></p>
+                <ul>
+                    <li><a href= "https://www.linkedin.com/in/rivai-talenggoran-77a014290/details/certifications/">LinkedIn</a></li>
+                    <li> <a href="https://drive.google.com/drive/folders/1GgTTUG3pf07VeMHFswwIYjdG5go9K1Kq?usp=sharing">Google Drive</a></li>
+                </ul>
+            </div>
+            </div>
+
+
+            <div id="box2">
+                <div id ="about">
+                    <p><b>About</b></p>
+                    <p>As the times are changing rapidly, the need for technology has become more and more prominent. 
+                        This has made me eager to learn about the inner workings of current technology, 
+                        especially in the field of Data and Artificial Inteligence. As an informatics student, 
+                        my focus is on the field of data and Artificial Intelligence, which are both relevant and growing fields. 
+                        I am motivated to pursue Data because there is a significant need for it in various aspects, 
+                        from decision-making to preventing errors in agencies that require Data. 
+                        Additionally, Artificial Intelligence is being applied across different domains, 
+                        which has inspired me to concentrate my studies on this field.</p>
+                </div>
+                <div id ='skills'>
+                    <p><b>Skills</b></p>
+                    <ul>
+                        <li>Languanges Programming(Python, R, SQL, JavaScript, HTML, CSS, PHP) - Intermediate</li>
+                        <li>Deep Learning(NLP, CNN, Time Series) - Intermediate</li>
+                        <li>Machine Learning(Regression, Classification, Clustering) - Intermediate</li>
+                        <li>Data Processing, Visualization, Manipulation, and Communication - Intermediate</li>
+                        <li>Front-End Web - Intermediate</li>
+                        <li>Database - Intermediate</li>
+                      </ul>
+                      <p><b>Additional Skills</b></p>
+                      <ul>
+                        <li>Languanges(English, Indonesia) - Intermediate</li>
+                        <li>Document(Word, Excel, PowerPoint) - Intermediate</li>
+                      </ul>
+                </div>
+                <div id ="achivement">
+                    <p><b>Achivement</b></p>
+                    <ul>
+                        <li>3rd place winner at provincial level in the 2018 FLS2N poster design competition</li>
+                    </ul>                 
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>
